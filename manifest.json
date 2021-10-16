@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Hoogle Search",
+    "version": "1.0",
+    "description": "To use, type 'hoogle' plus your search term into the url bar.",
+    "browser_specific_settings": {
+        "gecko": {
+            "strict_min_version": "52.0a1"
+        }
+    },
+    "omnibox": {
+        "keyword": "hoogle"
+    },
+    "icons": {
+        "48": "icons/favicon.png"
+    },
+    "permissions": [
+        "https://registry.npmjs.org/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
