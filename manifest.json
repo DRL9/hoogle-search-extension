@@ -12,11 +12,9 @@
         "keyword": "hoogle"
     },
     "icons": {
-        "48": "icons/favicon.png"
+        "16": "icons/favicon.png"
     },
-    "permissions": [
-        "https://registry.npmjs.org/"
-    ],
+    "permissions": [],
     "background": {
         "scripts": [
             "background.js"
